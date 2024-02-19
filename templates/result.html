@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Analysis Result</title>
 </head>
 <body>
-
+    <h2>Analysis Result</h2>
+    {% if result %}
+        <pre>{{ result }}</pre>
+    {% else %}
+        <p>No result available.</p>
+    {% endif %}
 </body>
 </html>

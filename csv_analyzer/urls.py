@@ -17,10 +17,10 @@ Including another URLconf
 # urls.py
 
 from django.urls import path
-from views import upload_csv
+from views import upload_csv  # Adjust the import path
 
 urlpatterns = [
-    path('', upload_csv, name='upload_csv'),
+    path('', upload_csv, name='home'),
     path('upload/', upload_csv, name='upload_csv'),
     # Add more URL patterns as needed
 ]
