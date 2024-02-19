@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ff91f34-73e9-4b08-9176-52ad9f8daf3f" name="Changes" comment="move urls.py to proper directory&#10;&#10;-moved urls.py to project folder">
+    <list default="true" id="8ff91f34-73e9-4b08-9176-52ad9f8daf3f" name="Changes" comment="adjust front end functionalities&#10;&#10;- add upload.html and result.html for user interaction/csv file upload&#10;-adjusted views.py for proper functionality to transfer to html web app front&#10;-fixed multiple directory issues">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_analyzer/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_analyzer/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/upload.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/upload.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.py" beforeDir="false" afterPath="$PROJECT_DIR$/controller.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +104,7 @@
       <updated>1708303299922</updated>
       <workItem from="1708303348703" duration="1264000" />
       <workItem from="1708313681193" duration="4878000" />
-      <workItem from="1708361809168" duration="2027000" />
+      <workItem from="1708361809168" duration="3540000" />
     </task>
     <task id="LOCAL-00001" summary="add csv analyzing function using pandas lib&#10;&#10;- add mvc structure&#10;- add pass for models.py&#10;- add csv file request in views.py&#10;- add csv reading funstion using pandas lib into controller.py&#10;- add url.py directories">
       <option name="closed" value="true" />
@@ -124,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708317895063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adjust front end functionalities&#10;&#10;- add upload.html and result.html for user interaction/csv file upload&#10;-adjusted views.py for proper functionality to transfer to html web app front&#10;-fixed multiple directory issues">
+      <option name="closed" value="true" />
+      <created>1708376943293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708376943293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add csv analyzing function using pandas lib&#10;&#10;- add mvc structure&#10;- add pass for models.py&#10;- add csv file request in views.py&#10;- add csv reading funstion using pandas lib into controller.py&#10;- add url.py directories" />
     <MESSAGE value="move urls.py to proper directory&#10;&#10;-moved urls.py to project folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="move urls.py to proper directory&#10;&#10;-moved urls.py to project folder" />
+    <MESSAGE value="adjust front end functionalities&#10;&#10;- add upload.html and result.html for user interaction/csv file upload&#10;-adjusted views.py for proper functionality to transfer to html web app front&#10;-fixed multiple directory issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust front end functionalities&#10;&#10;- add upload.html and result.html for user interaction/csv file upload&#10;-adjusted views.py for proper functionality to transfer to html web app front&#10;-fixed multiple directory issues" />
   </component>
 </project>
